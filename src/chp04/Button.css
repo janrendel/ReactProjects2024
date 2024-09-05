@@ -1,0 +1,17 @@
+button{
+    margin: 10px;
+    padding: 3px;
+    color: #fbfbfb;
+    width: 70px;
+}
+.bg-green{
+    background-color: #11431b;
+
+}
+.bg-red{
+    background-color: #780528;
+}
+.bg-blue{
+    background-color:blue;
+}
+
