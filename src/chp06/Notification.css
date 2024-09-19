@@ -1,0 +1,12 @@
+.wrapper{
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    flex-Direction: row;
+    border: 1px solid grey;
+    border-Radius: 16px;
+}
+.messageText{
+    color: magenta;
+    font-size: 16px;
+}
