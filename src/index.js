@@ -14,8 +14,7 @@ import ClickButton from "./chp08/ClickButton";
 import InputTest from "./chp08/InputTest";
 import ConfirmButton from "./chp08/ConfirmButton";
 import ConfirmButton2 from "./chp08/ConfirmButton2";
-import ConfirmButton3 from "./chp08/ConfirmButton3";
-import Greeting from "./chp09/Greeting";
+import LandingPage from "./chp09/LandingPage";
 //import ConfirmDialog from "./chp04/ConfirmDialog";
 //import Clock from "./chp04/Clock";
 //import Comment from "./chp05/Comment";
@@ -23,7 +22,7 @@ import Greeting from "./chp09/Greeting";
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
         <React.StrictMode>
-            <loginControl/>
+            <LandingPage />
         </React.StrictMode>
         );
 
