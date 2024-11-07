@@ -1,6 +1,5 @@
-import React,{useState} from "react";
+import React, {useState} from "react";
 import LoginButton from "./LoginButton";
-import LogoutButton from "./LogoutButton";
 import LoginoutButton from "./LoginoutButton";
 import Greeting from "./Greeting";
 
