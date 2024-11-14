@@ -16,12 +16,13 @@ import ConfirmButton2 from "./chp08/ConfirmButton2";
 import LandingPage from "./chp09/LandingPage";
 import AppNumberList from "./chp10/AppNumberList";
 import StudentAttendance from "./chp10/StudentAttendance";
-
+import AppStudentAttendance from "./chp10/AppStudentAttendance";
+import AttendanceCard from "./chp10/avatarAttendance/AttendanceCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
         <React.StrictMode>
-            <StudentAttendance />
+            <AttendanceCard />
         </React.StrictMode>
         );
 
