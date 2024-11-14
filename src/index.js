@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import './chp05/Comment.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NotificationList from "./chp06/NotificationList";
@@ -15,14 +14,14 @@ import InputTest from "./chp08/InputTest";
 import ConfirmButton from "./chp08/ConfirmButton";
 import ConfirmButton2 from "./chp08/ConfirmButton2";
 import LandingPage from "./chp09/LandingPage";
-//import ConfirmDialog from "./chp04/ConfirmDialog";
-//import Clock from "./chp04/Clock";
-//import Comment from "./chp05/Comment";
+import AppNumberList from "./chp10/AppNumberList";
+import StudentAttendance from "./chp10/StudentAttendance";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
         <React.StrictMode>
-            <LandingPage />
+            <StudentAttendance />
         </React.StrictMode>
         );
 
