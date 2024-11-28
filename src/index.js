@@ -17,12 +17,15 @@ import LandingPage from "./chp09/LandingPage";
 import AppNumberList from "./chp10/AppNumberList";
 import StudentAttendance from "./chp10/StudentAttendance";
 import AppStudentAttendance from "./chp10/AppStudentAttendance";
-import AttendanceCard from "./chp10/avatarAttendance/AttendanceCard";
+// import AttendanceCard from "./chp10/avatarAttendance/AttendanceCard";
+import Calcualator2 from "./chp12/Calcualator";
+import Calcualator3 from "./chp12/Calcualator3";
+import DistanceConverter from "./chp12/distance/DistanceConverter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
         <React.StrictMode>
-            <AttendanceCard />
+            <DistanceConverter />
         </React.StrictMode>
         );
 
